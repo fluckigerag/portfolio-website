@@ -2159,7 +2159,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2550,6 +2550,10 @@ input, select, textarea {
 			color: #b2b2b2 !important;
 			cursor: default;
 		}
+		.code {
+			margin: 10px;
+			margin-left: 75px;
+		}
 
 /* Work Item */
 
@@ -2640,7 +2644,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10em;
 		}
 
 /* Footer */
